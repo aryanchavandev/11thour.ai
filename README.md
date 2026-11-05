@@ -105,7 +105,7 @@ supabase/     Postgres schema and migrations with row-level security
 
 ## Status
 
-11thour is in a **private, invite-only pilot**. The application source is kept private while it's in testing; this repository is the public home for the project. A public waitlist lives at **[11thour.ai](https://11thour.ai)**.
+11thour is in a **private, invite-only pilot**. The application source is kept private while it's in testing; this repository is the public home for the project. You can join the waitlist at **[11thour.ai](https://11thour.ai)**.
 
 <p align="center">
   <img src="assets/screens/signin-dark.png" alt="11thour sign-in screen" width="80%">
