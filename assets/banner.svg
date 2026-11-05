@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="11thour.ai — a little less panic, a lot more purpose">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#22d3ee" stroke-opacity=".28" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#1e2f73"/><stop offset="1" stop-color="#4a7aa8"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050816" stop-opacity="0"/><stop offset="1" stop-color="#050816" stop-opacity=".85"/>
+    </linearGradient>
+    <style>
+      .mono{font-family:'Courier New',Courier,monospace}
+      .sans{font-family:'Helvetica Neue',Arial,sans-serif}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes slide{0%{transform:translateX(0)}100%{transform:translateX(640px)}}
+      @keyframes tick{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+      .cursor{animation:blink 1s steps(1) infinite}
+      .rocket{animation:slide 6s ease-in-out infinite alternate}
+      .hand{transform-origin:1010px 200px;animation:tick 12s linear infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="420" fill="#050816"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <rect width="1200" height="420" fill="url(#fade)"/>
+
+  <!-- window -->
+  <g transform="translate(70 56)">
+    <rect x="6" y="6" width="760" height="300" fill="#000" opacity=".45"/>
+    <rect width="760" height="300" fill="#0a0f24" stroke="#2c4aa0" stroke-width="2"/>
+    <rect width="760" height="34" fill="url(#bar)"/>
+    <text x="16" y="23" class="mono" font-size="14" font-weight="700" fill="#f4f1e6" letter-spacing="2">11THOUR.AI · THE STARTING LINE</text>
+    <rect x="676" y="9" width="18" height="18" fill="#e06666" stroke="#3a1010"/>
+    <rect x="700" y="9" width="18" height="18" fill="#f0cf5a" stroke="#3a2c10"/>
+    <rect x="724" y="9" width="18" height="18" fill="#6fbf73" stroke="#10301a"/>
+    <text x="34" y="78" class="mono" font-size="13" font-weight="700" fill="#22d3ee" letter-spacing="2">THE CLOCK IS TICKING. YOU'VE STILL GOT THIS.</text>
+    <text x="32" y="140" class="mono" font-size="52" font-weight="700" fill="#f4ecd2">11thour.ai<tspan class="cursor" fill="#22d3ee">_</tspan></text>
+    <text x="34" y="182" class="mono" font-size="19" fill="#c9d3e6">Your exam. Your materials. A plan for the hours that matter.</text>
+    <!-- countdown track -->
+    <line x1="34" y1="232" x2="726" y2="232" stroke="#22d3ee" stroke-dasharray="6 6" stroke-opacity=".7"/>
+    <rect x="30" y="228" width="8" height="8" fill="#f0cf5a"/><rect x="722" y="228" width="8" height="8" fill="#f0cf5a"/>
+    <g class="rocket">
+      <path d="M40 232 l18 -8 h22 l10 8 l-10 8 h-22 z" fill="#f4ecd2" stroke="#0a0f24" stroke-width="2"/>
+      <rect x="64" y="228" width="7" height="7" fill="#22d3ee"/>
+      <path d="M40 228 l-12 4 l12 4 z" fill="#e06666"/>
+    </g>
+    <g class="mono" font-size="15" fill="#22d3ee">
+      <rect x="34" y="252" width="160" height="34" fill="none" stroke="#2c4aa0"/><text x="52" y="275">PDF → MAP</text>
+      <rect x="208" y="252" width="160" height="34" fill="none" stroke="#2c4aa0"/><text x="226" y="275">9-BLOCK PLAN</text>
+      <rect x="382" y="252" width="160" height="34" fill="none" stroke="#2c4aa0"/><text x="400" y="275">CITED TUTOR</text>
+      <rect x="556" y="252" width="170" height="34" fill="#f0cf5a" stroke="#0a0f24"/><text x="574" y="275" fill="#0a0f24" font-weight="700">MAKE A PLAN →</text>
+    </g>
+  </g>
+
+  <!-- clock -->
+  <g>
+    <circle cx="1010" cy="200" r="118" fill="#0a0f24" stroke="#22d3ee" stroke-width="14"/>
+    <circle cx="1010" cy="200" r="118" fill="none" stroke="#050816" stroke-width="14" stroke-dasharray="70 672" stroke-dashoffset="-560"/>
+    <circle cx="935" cy="102" r="10" fill="#22d3ee"/>
+    <text x="1010" y="222" text-anchor="middle" class="sans" font-size="66" font-weight="800" fill="#f4f1e6">11<tspan font-size="38">hr</tspan></text>
+    <g class="hand"><circle cx="1010" cy="82" r="9" fill="#f0cf5a" stroke="#050816" stroke-width="3"/></g>
+    
+  </g>
+  <text x="600" y="398" text-anchor="middle" class="mono" font-size="14" fill="#8fa3c4" letter-spacing="3">A LITTLE LESS PANIC. A LOT MORE PURPOSE.</text>
+</svg>

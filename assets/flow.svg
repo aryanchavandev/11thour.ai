@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="How 11thour works: deadline, upload, source map, baseline, plan, study">
+  <defs>
+    <pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity=".14"/></pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#f0cf5a"/></marker>
+    <style>
+      .t{font-family:'Courier New',Courier,monospace}
+      @keyframes flow{to{stroke-dashoffset:-24}}
+      .link{stroke:#f0cf5a;stroke-width:2.5;stroke-dasharray:8 4;animation:flow 1s linear infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="330" fill="#050816"/><rect width="1200" height="330" fill="url(#g)"/>
+  <text x="40" y="44" class="t" font-size="15" font-weight="700" fill="#22d3ee" letter-spacing="3">HOW IT WORKS</text>
+
+  <g class="t">
+    <!-- step boxes: x = 40 + i*190 -->
+    <g transform="translate(40 76)">
+      <rect width="160" height="170" fill="#0a0f24" stroke="#2c4aa0" stroke-width="2"/><rect width="160" height="26" fill="#2c4aa0"/>
+      <text x="10" y="18" font-size="12" font-weight="700" fill="#f4f1e6">01 · DEADLINE</text>
+      <text x="80" y="88" text-anchor="middle" font-size="40" fill="#f0cf5a">⏱</text>
+      <text x="12" y="128" font-size="13" fill="#c9d3e6">When is the exam</text><text x="12" y="146" font-size="13" fill="#c9d3e6">and how much</text><text x="12" y="164" font-size="13" fill="#c9d3e6">time is left?</text>
+    </g>
+    <g transform="translate(230 76)">
+      <rect width="160" height="170" fill="#0a0f24" stroke="#2c4aa0" stroke-width="2"/><rect width="160" height="26" fill="#2c4aa0"/>
+      <text x="10" y="18" font-size="12" font-weight="700" fill="#f4f1e6">02 · UPLOAD</text>
+      <text x="80" y="88" text-anchor="middle" font-size="40" fill="#f0cf5a">⇪</text>
+      <text x="12" y="128" font-size="13" fill="#c9d3e6">Up to 5 PDFs,</text><text x="12" y="146" font-size="13" fill="#c9d3e6">250 pages, kept</text><text x="12" y="164" font-size="13" fill="#c9d3e6">private.</text>
+    </g>
+    <g transform="translate(420 76)">
+      <rect width="160" height="170" fill="#0a0f24" stroke="#22d3ee" stroke-width="2"/><rect width="160" height="26" fill="#22d3ee"/>
+      <text x="10" y="18" font-size="12" font-weight="700" fill="#050816">03 · SOURCE MAP</text>
+      <text x="80" y="88" text-anchor="middle" font-size="40" fill="#f0cf5a">⌘</text>
+      <text x="12" y="128" font-size="13" fill="#c9d3e6">A topic map where</text><text x="12" y="146" font-size="13" fill="#c9d3e6">every node cites</text><text x="12" y="164" font-size="13" fill="#c9d3e6">a real page.</text>
+    </g>
+    <g transform="translate(610 76)">
+      <rect width="160" height="170" fill="#0a0f24" stroke="#2c4aa0" stroke-width="2"/><rect width="160" height="26" fill="#2c4aa0"/>
+      <text x="10" y="18" font-size="12" font-weight="700" fill="#f4f1e6">04 · BASELINE</text>
+      <text x="80" y="88" text-anchor="middle" font-size="40" fill="#f0cf5a">✓</text>
+      <text x="12" y="128" font-size="13" fill="#c9d3e6">Quick diagnostic</text><text x="12" y="146" font-size="13" fill="#c9d3e6">or honest self-</text><text x="12" y="164" font-size="13" fill="#c9d3e6">rating.</text>
+    </g>
+    <g transform="translate(800 76)">
+      <rect width="160" height="170" fill="#0a0f24" stroke="#2c4aa0" stroke-width="2"/><rect width="160" height="26" fill="#2c4aa0"/>
+      <text x="10" y="18" font-size="12" font-weight="700" fill="#f4f1e6">05 · PLAN</text>
+      <text x="80" y="88" text-anchor="middle" font-size="40" fill="#f0cf5a">▦</text>
+      <text x="12" y="128" font-size="13" fill="#c9d3e6">9 ranked blocks</text><text x="12" y="146" font-size="13" fill="#c9d3e6">fitted to your</text><text x="12" y="164" font-size="13" fill="#c9d3e6">hours + energy.</text>
+    </g>
+    <g transform="translate(990 76)">
+      <rect width="170" height="170" fill="#f0cf5a" stroke="#0a0f24" stroke-width="2"/><rect width="170" height="26" fill="#0a0f24"/>
+      <text x="10" y="18" font-size="12" font-weight="700" fill="#f0cf5a">06 · STUDY</text>
+      <text x="85" y="88" text-anchor="middle" font-size="40" fill="#0a0f24">★</text>
+      <text x="12" y="128" font-size="13" fill="#0a0f24">Cited tutor, notes,</text><text x="12" y="146" font-size="13" fill="#0a0f24">recall, Feynman +</text><text x="12" y="164" font-size="13" fill="#0a0f24">Socratic modes.</text>
+    </g>
+    <path class="link" d="M202 161H226" marker-end="url(#arr)"/>
+    <path class="link" d="M392 161H416" marker-end="url(#arr)"/>
+    <path class="link" d="M582 161H606" marker-end="url(#arr)"/>
+    <path class="link" d="M772 161H796" marker-end="url(#arr)"/>
+    <path class="link" d="M962 161H986" marker-end="url(#arr)"/>
+  </g>
+  <text x="40" y="292" class="t" font-size="13" fill="#8fa3c4">Models propose. Deterministic code enforces evidence, approved scope, deadlines, budgets and ownership.</text>
+  <text x="40" y="312" class="t" font-size="13" fill="#8fa3c4">No citation, no claim — the tutor says "not in your sources" instead of guessing.</text>
+</svg>
